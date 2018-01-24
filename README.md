@@ -1,7 +1,9 @@
 # php_hangul_trim
 
-## 소개
+## Usage
 입력 받은 바이트수만큼 글자열을 잘라냅니다
+
+## Example
 
 ```php
 <?php
@@ -12,3 +14,6 @@ $str_changed = hangul_trim($str_init, $byte_length);
 printf("$str_changed\n");
 ?>
 ```
+
+## Require
+php-mbstring
